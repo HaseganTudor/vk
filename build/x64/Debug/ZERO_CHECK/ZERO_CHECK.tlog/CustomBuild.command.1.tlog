@@ -1,0 +1,10 @@
+^D:\VK\BUILD\CMAKEFILES\8FFE60822C60402D23AE5F2EA1908505\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/vk -BD:/vk/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/vk/build/VulkanWin32.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
