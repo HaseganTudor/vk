@@ -369,6 +369,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\vk\src\main.cpp" />
+    <ClCompile Include="D:\vk\src\renderer.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

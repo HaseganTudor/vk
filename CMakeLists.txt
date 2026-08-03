@@ -8,6 +8,7 @@ find_package(Vulkan REQUIRED)
 
 add_executable(VulkanWin32
     src/main.cpp
+    src/renderer.cpp
 )
 
 target_link_libraries(VulkanWin32 PRIVATE

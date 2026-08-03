@@ -1,0 +1,4 @@
+# ninja log v7
+5	818	8073562818572800	CMakeFiles/VulkanWin32.dir/src/main.cpp.obj	9d891c0ada74f7d4
+10	830	8073562818622864	CMakeFiles/VulkanWin32.dir/src/renderer.cpp.obj	ab13aec72eeec189
+830	1146	8073562826823493	VulkanWin32.exe	144a48d4a1469f9e
